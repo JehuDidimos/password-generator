@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'password-generator';
+
+  clicked(){
+    console.log("Button Click");
+  }
 }
