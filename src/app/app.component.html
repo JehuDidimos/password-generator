@@ -41,7 +41,7 @@
         Generate!
       </button>
 
-      <div class="box">
+      <div #passwordOutput class="box" *ngIf="newPassword">
         <label>Your Password</label>
         <input class="input" [value]="newPassword" />
       </div>
